@@ -1,0 +1,110 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+*.o
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Environments
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+ENV/
+env/
+.env~
+*.log
+
+# IDE / editor files
+# Emacs
+*~
+\#*\#
+.\#*
+*.el
+*.el~
+.dir-locals.el
+ecb/
+semantic/
+treedata/
+speech-dispatcher/
+ede/
+# VS Code
+.vscode/
+.idea/
+# JetBrains / PyCharm
+*.ipr
+*.iws
+.idea/
+# Sublime Text
+*.sublime-*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# uv lock file (use Pipfile.lock for pip, uv.lock for uv)
+uv.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project-specific
+*.pipe
+*.md~
+gather_and_zip.ps1
