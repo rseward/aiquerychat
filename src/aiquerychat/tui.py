@@ -275,7 +275,7 @@ class AiQueryChatApp(App):
             with VerticalScroll(id="chat-scroll"):
                 pass
         with Container(id="input-area"):
-            yield Input(placeholder="Ask a question or type a SQL query...", id="user-input")
+            yield Input(placeholder="Press tab. Ask a question or type a SQL query...", id="user-input")
         with Container(id="status-bar"):
             yield StatusMessage("Ready. Ask a question in English.", id="status")
 

@@ -8,7 +8,7 @@ from pathlib import Path
 import click
 from dotenv import load_dotenv
 
-from aiquerychat.tui import AiquerychatApp
+from aiquerychat.tui import AiQueryChatApp
 
 
 def resolve_path(ctx: click.Context, param: click.Parameter, value: str | None) -> str | None:
